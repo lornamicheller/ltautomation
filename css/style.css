@@ -184,7 +184,7 @@ ul,li{
 	content:'\f00c';
 	left:0px;
 	top:2px;
-	color:#ffdd00;
+	color:#fbd848;
 	font-size:18px;
 	font-family: 'FontAwesome';
 }
@@ -1892,7 +1892,7 @@ img{
 	bottom:0px;
 	width:50px;
 	height:2px;
-	background-color:#9b9b9b;
+	background-color:#009FC2;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -1902,7 +1902,7 @@ img{
 
 .services-block .inner-box:hover .lower-content h3:after{
 	width:100%;
-	background-color:#fbd848;
+	background-color:#FFDD00;
 }
 
 .services-block .inner-box .lower-content h3 a{
@@ -3518,7 +3518,7 @@ img{
 	bottom:5px;
 	height:1px;
 	width:40px;
-	background-color:#45ae7d;
+	background-color: #0065a4;
 }
 
 .team-block .inner-box .lower-box h3 a{
@@ -7742,4 +7742,41 @@ img{
 .cart-section .totals-table .total .price{
 	color:#363636 !important;
 	font-weight:700;
+}
+
+#name, #email, #phone, #message #submit, #message {
+  border: 1px solid #f1642200;
+  border-bottom: 1px solid #FFDD00;
+	/* border-radius: 12px; */
+	resize: none;
+  background: transparent;
+}
+
+#message {
+  height: 40px;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 11px;
+}
+
+#submit {
+  padding: 15px;
+  border: 1px solid #FFDD00;
+  color: white;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  width: 150px;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+input, select, textarea{
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	font-size: 11px;
 }
