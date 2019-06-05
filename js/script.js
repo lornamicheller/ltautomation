@@ -1,6 +1,6 @@
 (function($) {
 	
-	"use strict";
+	'use strict';
 	
 	
 	//Hide Loading Box (Preloader)
@@ -60,7 +60,7 @@
 	
 	//Jquery Spinner / Quantity Spinner
 	if($('.quantity-spinner').length){
-		$("input.quantity-spinner").TouchSpin({
+		$('input.quantity-spinner').TouchSpin({
 		  verticalbuttons: true
 		});
 	}
@@ -88,7 +88,7 @@
 	
 	//Accordion Box
 	if($('.accordion-box').length){
-		$(".accordion-box").on('click', '.acc-btn', function() {
+		$('.accordion-box').on('click', '.acc-btn', function() {
 			
 			var outerBox = $(this).parents('.accordion-box');
 			var target = $(this).parents('.accordion');
@@ -251,7 +251,7 @@
 	
 	// Scroll to a Specific Div
 	if($('.scroll-to-target').length){
-		$(".scroll-to-target").on('click', function() {
+		$('.scroll-to-target').on('click', function() {
 			var target = $(this).attr('data-target');
 		   // animate
 		   $('html, body').animate({
