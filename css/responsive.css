@@ -536,27 +536,27 @@
 	.main-menu .navbar-collapse > .navigation > li,
 	.main-menu .navbar-collapse > .navigation > li > ul > li,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li{
-		border-top:1px solid rgba(255,255,255,0.30) !important;
+		/* border-top:1px solid rgba(255,255,255,0.30) !important;
 		border-bottom:none;
 		opacity:1 !important;
 		top:0px !important;
 		left:0px !important;
-		visibility:visible !important;
+		visibility:visible !important; */
 	}
 	
 	.main-menu .navbar-collapse > .navigation > li:first-child{
-		border:none;	
+		/* border:none;	 */
 	}
 	
 	.main-menu .navbar-collapse > .navigation > li > a,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
-		padding:12px 20px 10px !important;
+		/* padding:12px 20px 10px !important;
 		line-height:22px;
 		color:#aaaaaa;
 		background:#262626;
 		text-align:left;
-		font-size:16px;
+		font-size:16px; */
 	}
 	
 	.main-menu .navbar-collapse > .navigation > li:hover > a,
